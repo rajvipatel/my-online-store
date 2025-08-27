@@ -12,10 +12,10 @@
     </parent>
     
     <groupId>com.example</groupId>
-    <artifactId>myonlinestore</artifactId>
+    <artifactId>my-online-store</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>myonlinestore</name>
-    <description>Modern E-commerce Store</description>
+    <name>My Online Store</name>
+    <description>My Online Store - Modern E-commerce Platform</description>
     
     <properties>
         <java.version>17</java.version>
