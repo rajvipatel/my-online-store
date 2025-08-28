@@ -1,4 +1,4 @@
-package com.example;
+package com.example.myonlinestore.controller;
 
 import com.example.myonlinestore.model.RequestData;
 import com.example.myonlinestore.service.CaptureContextService;
