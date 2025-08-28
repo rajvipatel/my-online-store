@@ -60,17 +60,13 @@
             `).join('');
         });
     </script>
-    <div class="container">
-    <div id="totalAmount">
-        <h2>Payment Amount</h2>
-        <p th:text="'$' + ${totalAmount}">Amount: $0.00</p>
+    <div class="container mx-auto px-4 max-w-3xl">
+        <div id="buttonPaymentListContainer" class="bg-white rounded-lg shadow-lg p-6">
+        </div>
+        <div id="embeddedPaymentContainer"></div>
+        <input type="hidden" id="transientToken" name="transientToken" />
+        <input type="hidden" id="jwt" th:value="${jwt}" />
     </div>
-    <div id="buttonPaymentListContainer">
-    </div>
-    <div id="embeddedPaymentContainer"></div>
-    <input type="hidden" id="transientToken" name="transientToken" />
-    <input type="hidden" id="jwt" th:value="${jwt}" />
-</div>
 <script>
     var showArgs = {
         containers: {
