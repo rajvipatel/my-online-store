@@ -18,12 +18,7 @@ public class ProductController {
         model.addAttribute("products", productRepository.findAll());
         return "index";
     }
-    
-    @GetMapping("/checkout")
-    public String checkout() {
-        return "checkout";
-    }
-    
+
     @GetMapping("/payment")
     public String payment() {
         return "payment";
