@@ -1,4 +1,4 @@
-package com.example.service.myonlinestore;
+package com.example.myonlinestore.service;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
